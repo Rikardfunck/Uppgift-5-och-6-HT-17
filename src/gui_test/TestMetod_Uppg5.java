@@ -33,7 +33,10 @@ public class TestMetod_Uppg5 {
 		System.out.println("");
 		System.out.println("Konton i registret");
 		System.out.println("Kontonummer: " + a1.getNbr() + ", saldo: " + a1.getBalance());
-		System.out.println(");
+		System.out.println("Kontonummer: " + a2.getNbr() + ", saldo: " + a2.getBalance());
+		System.out.println("Kontonummer: " + a3.getNbr() + ", saldo: " + a3.getBalance());
+		System.out.println("Kontonummer: " + a4.getNbr() + ", saldo: " + a4.getBalance());
+		System.out.println("");
 		
 		
 		for(Account a : r1.findPersonAccounts("970301")){  //Går in i listan som håller Accounts och tar ut alla objekt av Account a för pNbr "970301".
